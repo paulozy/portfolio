@@ -50,12 +50,19 @@ export function Header() {
             ))}
           </div>
           <div className="bio-buttons">
-            <Button content="Hire Me">
-              <GrMail size={24} />
-            </Button>
-            <Button content="Download CV">
-              <AiOutlineCloudDownload size={24} />
-            </Button>
+            <a href={links[0].href} target="_blank">
+              <Button content="Hire Me">
+                <GrMail size={24} />
+              </Button>
+            </a>
+            <a
+              href="../../../public/assets/docs/paulo-abreu.pdf"
+              download="paulo-abreu-cv"
+            >
+              <Button content="Download CV">
+                <AiOutlineCloudDownload size={24} />
+              </Button>
+            </a>
           </div>
         </div>
       </header>

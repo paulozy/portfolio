@@ -8,6 +8,7 @@
   font-family: "Poppins", sans-serif;
 
   transition: all ease 1s;
+  text-decoration: none;
 }
 
 body,
@@ -35,5 +36,9 @@ html {
   .container,
   .projects {
     padding: 10px;
+  }
+
+  .projects h3 {
+    margin-top: 10px;
   }
 }
