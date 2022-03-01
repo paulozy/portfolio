@@ -56,7 +56,7 @@ export function Header() {
               </Button>
             </a>
             <a
-              href="../../../public/assets/docs/paulo-abreu.pdf"
+              href="/public/assets/docs/paulo-abreu.pdf"
               download="paulo-abreu-cv"
             >
               <Button content="Download CV">
