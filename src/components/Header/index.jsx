@@ -55,10 +55,7 @@ export function Header() {
                 <GrMail size={24} />
               </Button>
             </a>
-            <a
-              href="public/assets/docs/paulo-abreu.pdf"
-              download="paulo-abreu-cv"
-            >
+            <a href="./assets/docs/paulo-abreu.pdf" download="paulo-abreu-cv">
               <Button content="Download CV">
                 <AiOutlineCloudDownload size={24} />
               </Button>
