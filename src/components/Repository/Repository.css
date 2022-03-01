@@ -1,0 +1,43 @@
+.repo-card {
+  width: 550px;
+
+  background: #0000001a;
+  border-radius: 20px;
+
+  padding: 19px 25px;
+
+  box-shadow: -12px 0px 13px -3px rgba(255, 255, 255, 0.048);
+}
+
+.repo-name {
+  width: 500;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  gap: 25px;
+  margin-bottom: 45px;
+
+  font-size: 36px;
+}
+
+.repo-card p {
+  font-size: 20px;
+  color: #c2c2c2a8;
+}
+
+@media (max-width: 1100px) {
+  .repo-card {
+    width: 90%;
+  }
+
+  .repo-name {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 440px) {
+  .repo-name {
+    font-size: 24px;
+  }
+}

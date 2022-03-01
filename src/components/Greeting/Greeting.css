@@ -1,0 +1,62 @@
+.greeting {
+  margin-top: 90px;
+
+  padding: 60px 60px;
+  background: #363636;
+
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: space-between;
+
+  gap: 30px;
+}
+
+.stacks {
+  display: flex;
+  flex-direction: column;
+
+  gap: 16px;
+}
+
+.greeting .about-me span {
+  display: block;
+}
+
+.greeting .about-me .me-name {
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 400;
+
+  margin-bottom: 35px;
+}
+
+.greeting .about-me .me-work {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 400;
+
+  margin-bottom: 35px;
+}
+
+.greeting .about-me .me-work a {
+  text-decoration: none;
+  color: #6636dd;
+}
+
+.greeting .about-me .me-work-desc {
+  font-size: 20px;
+  color: #a8a8a8;
+}
+
+@media (max-width: 1100px) {
+  .greeting {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+    width: 100%;
+
+    padding: 55px 20px;
+  }
+}

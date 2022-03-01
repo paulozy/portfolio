@@ -1,0 +1,13 @@
+.social-link {
+  text-decoration: none;
+  color: #fff;
+  transform: scale(0.9);
+
+  transition: all ease 0.2s;
+  cursor: pointer;
+}
+
+.social-link:hover {
+  transform: scale(1);
+  color: #6636dd;
+}
